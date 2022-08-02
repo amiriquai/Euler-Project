@@ -71,10 +71,12 @@ print(max(b))
 Q5
 
 m=[]
-for n in range (2,100000000000):
-    for i in (2,3,4,5,7,8,9,11,13,17,19):
-        m=[]
-        if n%i==0 & n not in m:
-            m==m.append(n)
+for n in range (2,1000000000):
+    for i in (2,5,7,8,9,11,13,17,19):
+        if n%i!=0:
+            break
+    else:
+        m==m.append(n)
+            
 
-print(m)
+print(min(m)))
