@@ -79,3 +79,25 @@ for n in range (2,1000000000):
             
 
 print(min(m))
+
+6.
+
+def sum_of_square(a):
+    b=[]
+    i=0
+    while i <= a:
+        i**2
+        b.append(i**2)
+        i+=1
+    return sum(b)
+
+
+def square_of_sum(c):
+    d=[]
+    j=0
+    while j <= c:
+        d.append(j)
+        j+=1
+    return (sum(d))**2
+
+square_of_sum(100)-sum_of_square(100)
